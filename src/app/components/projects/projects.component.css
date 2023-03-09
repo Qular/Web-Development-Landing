@@ -1,0 +1,124 @@
+#projects {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  #projects h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #projects p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  
+  .project-card-header {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .project-card-header img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .project-card-body {
+    padding: 20px;
+  }
+  
+  .project-card-body h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .project-card-body p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Project Card */
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .project-card-header img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .project-card-body {
+    padding: 20px;
+  }
+  
+  .project-card-body h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .project-card-body p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .project-card-body .btn {
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #0085FF;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .project-card-body .btn:hover {
+    background-color: #0072D2;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 991px) {
+    .project-card {
+      margin-bottom: 20px;
+    }
+  }
+  
